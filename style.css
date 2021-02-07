@@ -47,6 +47,7 @@ html {
   background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
     url(images/header-bg.jpg) center no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .header-text {
@@ -67,6 +68,28 @@ html {
   color: var(--secondary-color);
   max-width: 70rem;
   margin: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+}
+
+.logo h1 {
+  display: flex;
+}
+
+.logo h1 span {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--grey-color);
+  text-transform: uppercase;
+  background-color: var(--white-color);
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0.5rem;
+  border-radius: 50%;
 }
 
 /* End: Header Section */
