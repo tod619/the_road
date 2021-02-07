@@ -22,6 +22,10 @@ html {
   --light-grey-color: #777;
 }
 
+/* End: Global Styles */
+
+/* Start: Components */
+
 .center {
   display: flex;
   justify-content: center;
@@ -34,4 +38,15 @@ html {
   box-shadow: 0 1rem 3rem var(--grey-color);
 }
 
-/* End: Global Styles */
+/* End: Components */
+
+/* Start: Header Section */
+.header {
+  width: 100%;
+  height: calc(100vh - 7rem);
+  background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
+    url(images/header-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+/* End: Header Section */
