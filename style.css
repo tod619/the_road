@@ -48,6 +48,7 @@ html {
     url(images/header-bg.jpg) center no-repeat;
   background-size: cover;
   position: relative;
+  perspective: 100rem;
 }
 
 .header-text {
@@ -136,6 +137,10 @@ html {
   100% {
     transform: translateY(0);
   }
+}
+
+.header-image {
+  width: 35%;
 }
 
 /* End: Header Section */
