@@ -186,4 +186,17 @@ html {
   color: var(--primary-color);
   text-shadow: 0 0.1rem 0.2rem var(--primary-color);
 }
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 35rem;
+}
+
+.card-image {
+  width: 100%;
+}
 /* End: Popular Tours */
