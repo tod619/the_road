@@ -207,6 +207,7 @@ html {
   background-color: var(--white-color);
   border-radius: 0.3rem;
   position: relative;
+  z-index: 10;
 }
 
 .tour-name {
@@ -261,6 +262,22 @@ html {
   padding: 1rem 2rem;
   letter-spacing: 0.2rem;
   border-radius: 5rem;
+  cursor: pointer;
+}
+
+.navigation-button {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--light-grey-color);
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
   cursor: pointer;
 }
 /* End: Popular Tours */
