@@ -210,6 +210,14 @@ html {
   position: relative;
   z-index: 10;
   opacity: 0.9;
+  transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+.change > .front-side {
+  opacity: 0.5;
+  transform: translateZ(-5rem) translateX(3rem);
+  box-shadow: 0 2rem 4rem #777;
+  z-index: 0;
 }
 
 .tour-name {
@@ -249,6 +257,14 @@ html {
   flex-direction: column;
   opacity: 0.5;
   transform: translateZ(-5rem) translateX(3rem);
+  transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+}
+
+.change > .back-side {
+  opacity: 0.9;
+  transform: translateZ(0) translateX(0);
+  box-shadow: 0 0.5rem 2rem #aaa;
+  z-index: 10;
 }
 
 .tour-price {
