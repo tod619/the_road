@@ -333,4 +333,24 @@ html {
   object-fit: cover;
   margin-right: 5rem;
 }
+
+.story-text {
+  letter-spacing: 0.1rem;
+}
+
+.story-heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--grey-color);
+  margin-bottom: 1rem;
+}
+
+.story-paragraph {
+  font-size: 1.8rem;
+  color: var(--light-grey-color);
+}
+
+.story-paragraph::first-letter {
+  margin-left: 1rem;
+}
 /* End: Testimonial Section */
