@@ -305,6 +305,22 @@ html {
 /* Start: Testimonial Section */
 .stories {
   padding: 10rem 0;
+  position: relative;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .stories-wrapper {
@@ -318,7 +334,7 @@ html {
 }
 
 .story-bg {
-  background-color: #bbb;
+  background-color: rgba(238, 238, 238, 0.85);
   padding: 5rem;
   margin: 5rem;
   width: 70%;
