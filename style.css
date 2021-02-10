@@ -518,4 +518,12 @@ html {
   transform: rotate(-10deg);
   box-shadow: 0 2rem 3rem #000;
 }
+
+.footer-paragraph {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.2rem;
+  margin-top: 5rem;
+}
 /* End: Footer */
