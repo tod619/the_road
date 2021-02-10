@@ -370,3 +370,22 @@ html {
   margin-left: 1rem;
 }
 /* End: Testimonial Section */
+
+/* Start: Contact Section */
+.contact {
+  padding: 15rem 0 20rem 0;
+  text-align: center;
+  background: url(IMAGES/contact-us-bg.png) center no-repeat;
+  background-size: cover;
+}
+
+.contact-heading {
+  font-size: 7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--white-color);
+  text-shadow: 0 1rem 2rem #000;
+  margin-bottom: 8rem;
+}
+/* End: Contact Section */
