@@ -1,3 +1,14 @@
+// Get open + close navbar icon buttons to work
+const container = document.querySelector('.container');
+
+document.querySelector('.open-navbar-icon').addEventListener('click', () => {
+    container.classList.add('change');
+})
+
+document.querySelector('.close-navbar-icon').addEventListener('click', () => {
+    container.classList.remove('change');
+})
+
 // add background colors to navigation links
 const colors = ['#6495ed', '#7fffd4', '#ffa07a', '#f08080', '#afeeee']
 
