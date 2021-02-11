@@ -106,6 +106,13 @@ html {
   transform: rotate(-40deg);
 }
 
+.nav-link {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
 /* End: Navbar */
 
 /* Start: Header Section */
