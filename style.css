@@ -648,3 +648,21 @@ html {
   margin-top: 5rem;
 }
 /* End: Footer */
+
+/* Start: Media Queries */
+@media (max-width: 1200px) {
+  .cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin: 3rem 0;
+  }
+
+  .story-bg {
+    width: 85%;
+  }
+}
+
+/* End: Media Queries */
